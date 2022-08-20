@@ -33,7 +33,7 @@ const ReactionSchema = new Schema (
     {
         reactionId: {
             type: Schema.Types.ObjectId,
-            default: () => nwe Types.ObjectId()
+            default: () => new Types.ObjectId()
         },
         reactionBody: {
             type: String,
@@ -56,3 +56,7 @@ const ReactionSchema = new Schema (
         }
     }
 );
+
+const Thought = model('Thought', ThoughtSchema);
+
+module.exports = Thought;
