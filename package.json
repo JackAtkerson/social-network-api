@@ -19,5 +19,6 @@
   "homepage": "https://github.com/JackAtkerson/social-network-api#readme",
   "dependencies": {
     "mongoose": "^6.5.2"
-  }
+  },
+  "devDependencies": {}
 }
